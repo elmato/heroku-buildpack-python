@@ -187,6 +187,7 @@ source $BIN_DIR/steps/cryptography
 source $BIN_DIR/steps/gdal
 
 # Install dependencies with Pip.
+source $BUILD_DIR/.profile.d/000_apt.sh
 source $BIN_DIR/steps/pip-install
 
 # Django collectstatic support.
